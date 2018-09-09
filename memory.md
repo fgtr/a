@@ -1,8 +1,12 @@
 ## 2018-09-09 09:50:22
 `cinema` /ˈsɪnəmə/
+
 `Paris` /ˈpærəs/
+
 `entrant` /ˈentrənt/
+
 `beautiful` /ˈbjuːtɪfl/
+
 `George`  /dʒɔːdʒ/
 
 `剃须`时由上往下逆向剃除，逆向剃除才能让胡须挺立，便于刮净。
