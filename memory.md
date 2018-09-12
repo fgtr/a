@@ -1,3 +1,19 @@
+## 2018-09-12 11:01:47
+凶神為傷官、七殺、劫財、梟神也，吉神為食神、正官、正印、正財也，其餘的為不吉不兇之神。
+凶神多此人必定具有潛在的小人心性、暴力傾向、壞脾氣、小雞肚腸、福薄等不良心性，而吉神多的人則具有君子、善良、溫和、寬容、福壽的良好心性。
+但凶神可以更容易的適應劇烈的競爭環境――凶神具有適應力強、競爭力強的優勢。
+
+garage /ˈɡærɪdʒ/
+`mechanic` /məˈkænɪk/
+`fasten` /ˈfɑːsn/
+`lamp` /læmp/
+`drove` /drəʊv/
++ [usually plural] a large number of people or animals, often moving or doing sth as a group
+    *droves of tourists* 
+    *People were leaving the countryside in droves to look for work in the cities.*
++ see also drive v.
+`geomancy` /ˈdʒiːəʊmænsi/
+
 ## 2018-09-11 11:08:43
 `戊` `DNYT` 2018-09-11 11:08:22
 
