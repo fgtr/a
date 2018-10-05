@@ -1,4 +1,32 @@
 
+## 2018-10-05 09:48:44
+`acknowledge` /əkˈnɒlɪdʒ/
++ She refuses to acknowledge the need for reform. 
++ He is widely acknowledged as the best player in the world.
++ He is widely acknowledged to be the best player in the world. 
++ a generally acknowledged fact 
++ Please acknowledge receipt of this letter. 
++ I was standing right next to her, but she didn't even acknowledge me.
++ I gratefully acknowledge financial support from several local businesses. 
+
+## 2018-10-04 11:04:29
+xargs | 查找 指定文件列表 的每个文件内容包含的字符串 / 将一个命令(ls/find)的结果传给另一个命令(grep)处理
+```
+grep 'sp' `find . -type f -name *.pro*`
+find . -type f -name *.pro* | xargs grep 'sp'
+```
+```
+rm -rf `ls -tr|head -n 5`
+ls -tr|head -n 5|xargs rm -rf
+```
+`tutorial` /tjuːˈtɔːriəl/
+
+## 2018-10-03 14:20:57
+比萨斜塔，斜而不倒矗立几百年。可谓世界奇观。
+建造于1173年8月，是意大利比萨城大教堂的独立式钟楼，位于意大利托斯卡纳省比萨城北面的奇迹广场上。
+比萨斜塔在建筑的过程中就已出现倾斜，原本是一个建筑败笔，却因祸得福成为世界建筑奇观，伽利略的自由落体试验更使其蜚声世界，成为世界著名旅游观光圣地，每天都吸引着成千上万的游客，因而它也是比萨市的经济支柱。
+比萨斜塔之所以会倾斜，是由于它地基下面土层的特殊性造成的。比萨斜塔下有好几层不同材质的土层，各种软质粉土的沉淀物和非常软的粘土相间形成，而在深约一米的地方则是地下水层。这个结论是在对地基土层成份进行观测后得出的。最新的挖掘表明，钟楼建造在了古代的海岸边缘，因此土质在建造时便已经沙化和下沉。
+
 ## 2018-09-28 20:05:24
 用户A查询一条纪录，然后修改该条纪录；这时用户B修改该条纪录，这时用户A的事务里锁的性质由查询的共享锁企图上升到独占锁，而用户B里的独占锁由于A 有共享锁存在所以必须等A释放掉共享锁，而A由于B的独占锁而无法上升的独占锁也就不可能释放共享锁，于是出现了死锁。这种死锁比较隐蔽，但在稍大点的项 目中经常发生。如在某项目中，页面上的按钮点击后，没有使按钮立刻失效，使得用户会多次快速点击同一按钮，这样同一段代码对数据库同一条记录进行多次操 作，很容易就出现这种死锁的情况。CAS解决？
 
