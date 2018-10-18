@@ -1,4 +1,36 @@
 ## 2018-10-18 10:36:16
+`leak` /liːk/ to allow liquid or gas to get in or out through a small hole or crack; to give secret information to the public, for example by telling a newspaper
++ The roof was leaking.
++ The contents of the report were leaked to the press.
+
+
+
+`protect` /prəˈtekt/
+v. to keep someone or something safe from harm, damage, or illness; 
++ They huddled together to protect themselves from the wind.
++ The cover protects the machine from dust.
++ The plant is protected under the Wildlife and Countryside Act.
++ Many policies do not protect you against personal injury. 
+
+`issue` /ˈɪʃuː/
+n. a problem or worry that sb has with sth; a magazine or newspaper printed for a particular day, week, or month; if you have issues with someone or something, you do not agree with or approve of them; the act of supplying or making available things for people to buy or use; children of your own
++ a key / sensitive / controversial issue 
++ The union plans to raise the issue of overtime.
++ She's always on a diet—she has issues about food.
++ It is difficult to take issue with his analysis.
++ I have a few issues with Marc.
++ If you have any issues, please call this number.
++ The article appeared in issue 25.
++ I bought a set of the new stamps on the date of issue.
++ He died without issue. 
+v. to make sth known formally;  to officially make a statement, give an order, warning etc; to give sth to sb, especially officially; if an organization or someone in an official position issues something such as documents or equipment, they give these things to people who need them; to start a legal process against sb, especially by means of an official document; to produce sth such as a magazine, article, etc
++ The police have issued an appeal for witnesses.
++ The US State Department issues millions of passports each year.
++ Work permits were issued to only 5% of those who applied for them. 
++ A warrant has been issued for his arrest.
++ We issue a monthly newsletter.
++ They issued a special set of stamps to mark the occasion.
+
 `dismiss` /dɪsˈmɪs/ to decide that sb/sth is not important and not worth thinking or talking about; to put thoughts or feelings out of your mind; to officially remove sb from their job; to say that a trial or legal case should not continue, usually because there is not enough evidence
 + He dismissed the opinion polls as worthless. 
 + Dismissing her fears, she climbed higher.
@@ -10,6 +42,9 @@
 `forgery` /ˈfɔːdʒəri/ the crime of copying money, documents, etc. in order to cheat people; a document, painting, or piece of paper money that has been copied illegally 
 +  The painting was a very clever forgery.
 
+`deliberate` 
+adj./dɪˈlɪbərət/ done on purpose rather than by accident 
+v./dɪˈlɪbəreɪt/ to think very carefully about sth, usually before making a decision
 `deliberately` /dɪˈlɪbərətli/ done in a way that was planned, not by chance;  done in a way that is intended or planned
 + She's been deliberately ignoring him all day.
 + He deliberately upset her.
