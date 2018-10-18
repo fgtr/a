@@ -1,3 +1,88 @@
+## 2018-10-18 10:36:16
+`dismiss` /dɪsˈmɪs/ to decide that sb/sth is not important and not worth thinking or talking about; to put thoughts or feelings out of your mind; to officially remove sb from their job; to say that a trial or legal case should not continue, usually because there is not enough evidence
++ He dismissed the opinion polls as worthless. 
++ Dismissing her fears, she climbed higher.
++ He dismissed her from his mind.
++ She claims she was unfairly dismissed from her post. 
++ The class was dismissed early today.
++ The case was dismissed. 
+
+`forgery` /ˈfɔːdʒəri/ the crime of copying money, documents, etc. in order to cheat people; a document, painting, or piece of paper money that has been copied illegally 
++  The painting was a very clever forgery.
+
+`deliberately` /dɪˈlɪbərətli/ done in a way that was planned, not by chance;  done in a way that is intended or planned
++ She's been deliberately ignoring him all day.
++ He deliberately upset her.
+
+`pretend` to behave as if something is true when in fact you know it is not, in order to deceive people or for fun
++ We can’t go on pretending that everything is OK.
++ He’s not asleep – he’s just pretending.
+
+`!!` 重复上次的命令
+`Ctrl+U` 删除整行
+`Ctrl+W` 删除当前行中的字
+`Ctrl+D` / `exit` 注销当前会话，与 exit 相似
+`Ctrl+Z` 停止当前命令，并使用 fg 恢复
+
+`cal` 显示当月的日历
+`uptime` 显示系统从开机到现在所运行的时间
+`w`  显示登录的用户
+`finger user` 显示 user 的相关信息
+`uname -a` 显示内核信息
+`free` 显示内存及交换区占用情况
+
+sh脚本 执行sudo命令
+```
+echo 123456 | sudo -S ./winless.sh
+```
+注：这里123456是密码，参数-S专门为执行sudo命令的时候要输入密码而准备的，表示标准输入
+
+`alias`  /ˈeɪliəs/used when a person, especially a criminal or an actor, is known by two names
+`criminal` /ˈkrɪmɪnl/ connected with or involving crime
++ I was sure he was involved in some kind of criminal activity.
++ a criminal lawyer
+
+## 2018-10-17 10:28:11
+`躊` cau4
+`躇` cyu4
+`@Bean` You can use the @Bean annotation in a @Configuration-annotated or in a @Component-annotated class.
+You use this method to register a bean definition within an ApplicationContext of the type specified as the method’s return value.
+By default, the bean name will be the same as the method name.
+
+`annotate` /ˈænəteɪt/
+
+## 2018-10-15 11:02:38
+`positive` /ˈpɒzətɪv/
++ She’s got a really positive attitude to life.
++ His family have been a very positive influence on him.
++ Write down all the positive things about your life.
++ The journey was a positive nightmare.
+
+find的-name参数，加上引号： `"*.md"`
+```
+find . -type f -name "*.md" | xargs grep -n "还价"
+```
+
+DAO相关 继承 JpaRepository 的接口。这个的 from 对象名，而不是具体的表名。
+```
+    public interface AuthorRepository extends JpaRepository<Author, Long> {
+     
+        List<Author> findAll();
+     
+        @Query("from Author where id = :id")
+        Author findAuthor(@Param("id") Long id);
+    }
+```
+
+## 2018-10-13 10:05:26
+`刺破黑暗`
+勾勒岀未来的轮廓线，订下**勇往直前**的准则。
+微小的梦想，全部点燃。
+用这份光芒刺破黑暗，粉碎了的壁垒另一边，我看见了属于自己的天空。
+
+`与「玉」共存`
+血流不息，总不免有邪秽之物侵入。择其相配的风水部位（器官）而长。
+养身病？与「玉」共处？除却心中邪杂念，精气日新，及其天年。
 
 ## 2018-10-05 09:48:44
 `acknowledge` /əkˈnɒlɪdʒ/
@@ -12,8 +97,12 @@
 ## 2018-10-04 11:04:29
 xargs | 查找 指定文件列表 的每个文件内容包含的字符串 / 将一个命令(ls/find)的结果传给另一个命令(grep)处理
 ```
-grep 'sp' `find . -type f -name *.pro*`
-find . -type f -name *.pro* | xargs grep 'sp'
+grep 'sp' `find . -type f -name "*.pro*"`
+find . -type f -name "*.pro*" | xargs grep 'sp'
+```
+find的-name参数，加上引号： `"*.md"`
+```
+find . -type f -name "*.md" | xargs grep "还价"
 ```
 ```
 rm -rf `ls -tr|head -n 5`
