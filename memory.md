@@ -1,9 +1,29 @@
+## 2018-10-19 09:11:53
+`origin` /ˈɒrɪdʒɪn/ n. the point from which sth starts; the cause of sth; a person's social and family background; the country, race, or type of family which someone comes from ⇨ extraction
++ the origins of life on earth
++ a new theory to explain the origins of the universe
++ Most coughs are viral in origin (= caused by a virus).
++ a person's country of origin (= where they were born)
++ She has risen from humble origins to immense wealth.
+
+`plug` /plʌɡ/
+`annotate` /ˈænəteɪt/ to add notes to a book or text, giving explanations or comments
++ `annotation` /ˌænəˈteɪʃn/ It will be published with annotations and an index.
++ `annotated` /ˈænəteɪtɪd/ an annotated edition
+
+String.format("%s (age: %d)", name, age);
+
+`generally` /ˈdʒenrəli/ by or to most people; in most cases; without discussing the details of sth
++ The plan was generally welcomed.
++ The new drug will be generally available from January.
++ I generally get up at six.
++ Let's talk just about investment generally.
++ The plants are generally regarded as weeds.
+
 ## 2018-10-18 10:36:16
 `leak` /liːk/ to allow liquid or gas to get in or out through a small hole or crack; to give secret information to the public, for example by telling a newspaper
 + The roof was leaking.
 + The contents of the report were leaked to the press.
-
-
 
 `protect` /prəˈtekt/
 v. to keep someone or something safe from harm, damage, or illness; 
