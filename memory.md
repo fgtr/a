@@ -1,3 +1,25 @@
+
+
+## 2018-11-13 14:04:22
+```
+sudo date -s '2018-11-13 14:04:10'
+```
+
+`programming` /ˈprəʊɡræmɪŋ/
+
+## 2018-10-25 15:28:11
+`orphan` /ˈɔːfn/ n. a child whose parents are dead; v. to make a child an orphan
++ He was an orphan and lived with his uncle.
++ She was orphaned in the war.
+
+
+## 2018-10-24 20:01:30
+`principle` /ˈprɪnsəpl/ n.  a moral rule or a strong belief that influences your actions;  a law, a rule or a theory that sth is based on; a belief that is accepted as a reason for acting or thinking in a particular way
++ I refuse to lie about it; it's against my principles.
++ Stick to your principles and tell him you won't do it.
++ The principle behind it is very simple.
++ the principle that free education should be available for all children 
+
 ## 2018-10-19 09:11:53
 `origin` /ˈɒrɪdʒɪn/ n. the point from which sth starts; the cause of sth; a person's social and family background; the country, race, or type of family which someone comes from ⇨ extraction
 + the origins of life on earth
