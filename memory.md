@@ -1,4 +1,30 @@
 
+## 2018-11-14 19:59:57
+用 指定的dns服务器 查询域名解析 - dig / nslookup
+```
+`nslookup` google.com 202.45.84.58
+`dig` @202.45.84.58 google.com
+```
+
+```
+`git log`
+查看 cf85e7ec050f0a0c6cdb82ea050d11ad6302edb7 版本的修改内容
+`git show` cf85e7ec050f0a0c6cdb82ea050d11ad6302edb7
+比较 两个版本的不同
+`git diff` cf85e7ec050f0a0c6cdb82ea050d11ad6302edb7 3ea4152dcd2a631fd7f2661fe7b2d7684ce949c9
+```
+
+```
+She wants to shine, forever in time
+She is so driven  /ˈdrɪvn/, she's always mine
+Clearly and free, she wants you to be
+A part of the future, a girl like me
+
+There is a sky, illuminating /ɪˈluːmɪneɪtɪŋ/ us
+Someone is out there, that we truly trust
+There is a rainbow /ˈreɪnbəʊ/, for you and me
+A beautiful sunrise, eternally/ɪˈtɜːnl/
+```
 
 ## 2018-11-13 14:04:22
 ```
