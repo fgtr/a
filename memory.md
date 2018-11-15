@@ -1,4 +1,19 @@
 
+## 2018-11-15 16:41:22
+习惯到100分，就意味着，这个人**有极端专注的注意力，极端科学的时间规划，极端冷静的心理素质，极端坚韧的意志力，极端开阔的眼界，以及对这个学科极端狂热的热爱**。
+曾经认识一个高考省状元，她身上就集成了顶尖的天赋，强大的规划能力，最优秀的教育资源，从小刻苦的才艺训练，对特定学科的热爱，*每天精确6小时整睡眠的作息*等优秀的因素，才有了最顶尖的成绩。
+
+*一切均可通过训练所得，无论思维习惯还是学习习惯。*
+而真正起关键作用的是，你是否用正确的意识来引导自身的一切行为。
+
+高斯不仅计算能力极强，而且非常善于发明数学工具，来简化自己的计算过程。
+
++ 乘坐飞机20小时的剂量0.1mSv
++ 每天吸20支烟年0.5-2mSv     
++ 地铁安检乘客每年可能接受剂量<0.01mSv
++ 牙齿X线照相 5伦琴(拉德)/次；
++ 肿瘤治疗(局部照射) 3000-7000伦琴(拉德)/次；
+
 ## 2018-11-14 19:59:57
 用 指定的dns服务器 查询域名解析 - dig / nslookup
 + `nslookup` google.com 202.45.84.58
@@ -14,7 +29,7 @@
 + She is so driven  /ˈdrɪvn/, she's always mine
 + Clearly and free, she wants you to be
 + A part of the future, a girl like me
-+ 
+
 + There is a sky, illuminating /ɪˈluːmɪneɪtɪŋ/ us
 + Someone is out there, that we truly trust
 + There is a rainbow /ˈreɪnbəʊ/, for you and me
