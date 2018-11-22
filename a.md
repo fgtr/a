@@ -1,4 +1,27 @@
 
+## 2018-11-21 14:24:41
+查看分支，并检出分支
+```
+git ls-remote git@gitub.com:dev/sso.git
+git clone -b v2.8.1 git@gitub.com:dev/sso.git
+```
+
+## 2018-11-20 14:24:41
+PostgreSQL字段值支持JSON
+```
+select  tgt.*, **authentication->'principal'->'id'**  as user from auth.tgt 
+表`auth.tgt` ，字段**authentication**值：
+    {
+        "**principal**": {
+            "**id**": "admin",
+            "attributes": {}
+        }
+    }
+结果： "admin"
+```
+
+`python` /ˈpaɪθən/
+
 ## 2018-11-16 16:10:37
 `四大贤母` 
 + 孟母仉氏：孟子的母亲，孟母三迁，择邻而居，为儿子的教育选择好环境；
