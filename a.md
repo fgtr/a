@@ -1,4 +1,215 @@
 
+## 2019-03-16 10:10:32
+`index`
+- `B-tree` 可以在_可排序数据上_的处理__等值__和__范围查询__。
+- `Hash` 只能处理简单__等值__比较。
+
+```java
+String.format("%s (age: %d)", name, age);
+System.out.printf("年-月-日 HH:MM:SS 格式：%tF %tT%n", date, date);
+```
+
+`ThreadPoolExecutor`
++ corePoolSize:int
++ maximumPoolSize:int
++ keepAliveTime:long
++ unit:TimeUnit
++ workQueue:BlockingQueue<Runnable>
+    * ArrayBlockingQueue //有界队列
+    * LinkedBlockingQueue //无界队列
+    * SynchronousQueue //特殊的一个队列，只有存在等待取出的线程时才能加入队列，可以说容量为0，是无界队列
++ threadFactory
++ handler:RejectedExecutionHandler
+
+
+```markdown
+hello[^hello]
+
+[^hello]: hi
+```
+
+```markdown
+    I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+
+    [1]: http://google.com/        "Google" 
+    [2]: http://search.yahoo.com/  "Yahoo Search" 
+    [3]: http://search.msn.com/    "MSN Search"
+```
+
+## 2019-03-06 11:52:02
+[ VIM ]
+
+`~` 大小写转换
+`rx` 将当前光标下的字符更改为x（x为任意字符）  `REM`
+`.` 重复上一次操作 `REM`
+
+`*` 向下查找并高亮显示 `REM`
+`#` 向上查找并高亮显示
+`gd` 高亮显示光标所属单词，按 `n` 进行查找
+
+`J` 把下面一行合并到本行后面 `REM`
+
+`>` 增加选中行的缩进 `REM`
+`<` 减少选中行的缩进
+
+
+`fx` 向右跳到本行字符x处（x可以是任何字符） `REM`
+`Fx` 向左跳到本行字符x处（x可以是任何字符）
+
+`n+` 光标下移n行
+`n-` 光标上移n行 
+
+`^e` 将屏幕上滚一行
+`^y` 将屏幕下滚一行
+
+`^u` 将屏幕上滚半页
+`^d` 将屏幕下滚半页
+
+`^b` 将屏幕上滚一页
+`^f` 将屏幕下滚一页
+
+## 2019-02-26 10:48:28
+《無衣》
+
+豈曰無衣、與子同袍。
+王于興師、脩我戈矛、與子同仇。
+
+豈曰無衣、與子同澤。
+王于興師、脩我矛戟、與子偕作。
+
+豈曰無衣、與子同裳。
+王于興師、脩我甲兵、與子偕行。
+
+## 2019-02-23 16:20:14
+Sublime，临时工作文件：
+- `tmp` 新建 _临时文件_ 首行内容：tmp。
+- `todo` 新建 _临时文件_ 且延迟处理 首行内容含：todo。
+> 2019-02-23 16:20:21
+
+## 2019-02-14 14:41:26
+UPDATE notice SET `status = CASE WHEN status <> 2 and status >= 0 THEN 4 ELSE status END`, last_push_time = now() WHERE id = 31
+
+## 2019-02-02 17:24:36
+**java.util.regex.Pattern的实例是不可变的，可供多个并发线程安全使用。Matcher 类的实例用于此目的则不安全。 **
+```java
+static final Pattern PATTERN_DATE_FORMAT = Pattern.compile("^\\d{4}-\\d{1,2}-\\d{1,2}$");
+public static boolean isDateFormat(String text) {
+    return PATTERN_DATE_FORMAT.matcher(text).matches();
+}
+```
+
+## 2019-02-01 18:00:11
+PageHelper 安全调用
+PageHelper 方法使用了静态的 `ThreadLocal` 参数，分页参数和线程是绑定的。
+只要你可以保证**在 PageHelper 方法调用后紧跟 MyBatis 查询方法**，这就是安全的。因为 PageHelper 在 finally 代码段中自动清除了 ThreadLocal 存储的对象。
+
+
+## 2019-01-25 16:37:35
+markdown书写`quick`： 
++ 小屏sublime编辑，大屏Typora实时观察
++ sublime内容搜索 `= grep`
+
+## 2019-01-23 16:19:39
+`tailf what-is-my-name.log` = `tail -f what-is-my-name.log`
+
+每1秒打印指定日志文件最后50行 / watch
+```
+watch -d -n 1 tail -n 50 gateway.log
+watch -d -n 1 wc gateway.log
+```
+`-d`表示高亮变化的部分
+> 再次见证到Linux的强大之处，相见恨晚的命令。用处实在太大，尤其是监视文件变件变化
+
+## 2019-01-21 13:57:06
+`free -h` 查看内存
+
+## 2019-01-03 17:48:14
+xshell 多屏分割 / 多机分割，爽得不行
+hystrix [hɪst'rɪks] 
+ribbon /ˈrɪbən/
+
+## 2018-12-28 13:49:25
+`git rm -r --cached 文件名` 移除某文件的版本控制 | rm
+
+`@FixMethodOrder(MethodSorters.NAME_ASCENDING)` 根据test方法名按照字典顺序升序排序
+`java.util.concurrent.TimeUnit` CACHE_EXPIRATION_TIMEUNIT = TimeUnit.DAYS;
+grep -r "\[SERVER\] 10.200.60.14:8081" 100-users.log | wc -l
+
+## 2018-12-25 10:54:49
+```
+docker exec -it 950e9c81c4d6 /bin/sh
+```
+
+## 2018-12-24 14:37:32
+将当前目录下的所有文件内容，"sso1"替换为"10.200.60.38"
+```
+grep -rl "sso1" ./ |xargs sed -i 's/sso1/10.200.60.38/g'
+```
+或者
+```
+sed -i 's/sso2/10.201.82.54/g' `grep -rl "sso2" ./`
+```
+
+## 2018-12-19 11:11:43
+PreFilter.java:
+```java
+MDC.put("trace.id", String.valueOf(request.hashCode()));
+```
+logback.xml:
+```xml
+<pattern>[%X{trace.id}] %msg [%d `${PID}` \(%F:%L\).%M\(\)]%n</pattern>
+```
+使用`%X{trace.id}`读取
+
+logger.debug("the message {} is from {}", msg, somebody);
+
+
+## 2018-12-05 09:55:15
+
+enum / 枚举
+```
+public enum EnumIntType {
+
+    BAD(0),
+    GOOD(6),
+    PERFECT(10);
+
+    private final int level;
+    EnumIntType(int level) {
+        this.level = level;
+    }
+
+    /// TEST
+    static class Person {
+        private EnumIntType type;
+
+        public void setType(EnumIntType type) {
+            this.type = type;
+        }
+
+        public EnumIntType getType() {
+            return type;
+        }
+
+        @Override
+        public String toString() {
+            return "Person{" +
+                    "type=" + type +
+                    '}';
+        }
+
+        public static void main(String[] args) {
+            Person person = new Person();
+            person.setType(EnumIntType.BAD);
+            if (EnumIntType.BAD.equals(person.getType())) {
+                System.out.println("Be Careful");
+            }
+        }
+
+    }
+}
+```
+
 ## 2018-11-21 14:24:41
 查看分支，并检出分支
 ```
